@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="style.css">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+        <title>registration_form</title>
+    </head>
+    <body>
+        <h1>Library Registration Form</h1>
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" name="firstName" placeholder="John"><br><br>
+        
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" name="lastName" placeholder="Doe"><br><br>
+        
+        <label for="username">Username :</label>
+        <input type="text" id="username" name="username" placeholder="Enter a unique username"><br><br>
+        
+        <label for="password">Password :</label>
+        <input type="text" id="password name=" password" placeholder="Create a strong password">
+        
+        <label class="icon"><img width="15" height="15" src="info.png"></label>
+        <div class="hoverText">Passwords must contain: a minimum of 1 lower case letter [a-z] and a minimum of 1 upper case letter [A-Z] and. a minimum of 1 numeric character [0-9]</div><br><br>
+        
+        <label for="freeform">How did you come to know about us?</label><br>
+        <label class="linkedin"><input type="checkbox" name="checkbox"/>Linkedin</label><br>
+        <label class="instagram"><input type="checkbox" name="checkbox"/>Instagram</label><br>
+        <label class="yt"><input type="checkbox" name="checkbox"/>YouTube</label><br><br>
+        <label> Others:</label><br>
+        <textarea id="freeform" name="freeform" rows="1" cols="50"></textarea><br><br>
+        <label for="freeform">Please suggest some books to be added to our library (if any):
+        </label><br>
+        <textarea id="freeform" name="freeform" rows="4" cols="50"></textarea><br><br>
+        <input type="submit" value="Submit">
+
+    </body>
+</html>

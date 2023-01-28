@@ -1,0 +1,15 @@
+.hoverText{
+    display: none;
+}
+
+.icon:hover+.hoverText{
+    display: flex;
+    color: blue;
+}
+
+.mainflex{
+    display: flex;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
