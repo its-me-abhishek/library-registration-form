@@ -1,0 +1,23 @@
+body {
+    background-color: #031e43;
+    font-family: Arial, sans-serif;
+}
+
+.registration-form {
+    max-width: 500px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px #000000;
+}
+
+/* You can add additional styling for form elements here */
+.registration-form label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.registration-form .form-control {
+    margin-bottom: 1rem;
+}
